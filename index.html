@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./index.css" rel="stylesheet">
+  <script type="module" src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="./index.html">PRODUCTS</a>
+        <a href="./login.html">LOGIN</a>
+    </header>
+
+    <form class="form" method="submit">
+        <div>
+            <label for="name">Product Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" step="0.01" required>
+        </div>
+        <div>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" cols="50" required></textarea>
+        </div>
+        <div>
+            <label for="image">Product image</label>
+            <input type="text" id="image" name="image" required>
+
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+
+    <section class="container"></section>
+
+
+  
+</body>
+</html>
